@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Search Patient</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='stylesheet' type="text/css" href="css/table1.css" />
+    <link rel='map' type="text/css" href="css/bootstrap.css.map">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <style type="text/css">
+        .bs-example {
+            margin: 20px;
+        }
+    </style>
+
+
+
+
+
+    </head>
+
+
+    <body>
+        <form id="form1">
+            <div id="divContainer">
+
+            </div>
+        </form>
+
+
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img src="teamcare2.png" class="img-responsive" alt="teamcare logo" />
+
+
+
+
+
+
+
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Basic Info</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Benefits</a>
+                        </li>
+                        <li class="dropdown">
+                    </ul>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="#">Eligibility</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other options <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">FAQ</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Feedback</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Contact us</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Log Out</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="panel-heading">
+            <h3 style="background-color:#449D44; color:white; text-align:center;">Claims</h3>
+        </div>
+        <div class="bs-example">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Service Information as of 11/10/2015</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="table-responsive">
+                          
+
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Service Description" style="background-color:#d9edf7;"> EKG Cleaning</td>
+                                        <td data-label="Service Date" > | 10/22/2015</td>
+                                        <td data-label="Amount Billed" style="background-color:#d9edf7;"> $128.00 </td>
+                                        <td data-label="Not Covered" > | $27.00 </td>
+                                        <td data-label="Covered" style="background-color:#d9edf7;"> $328.00 </td>
+
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Coverage Information </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="table-responsive">
+
+
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Not Covered"> | $27.00 </td>
+                                        <td data-label="Covered" style="background-color:#d9edf7;"> $328.00 </td>
+                                        <td data-label="Amount Billed" style="background-color:#d9edf7;"> $128.00 </td>
+                                        <td data-label="Total Bill"> | $27.00 </td>
+                                        <td data-label="Covered" style="background-color:#d9edf7;"> $328.00 </td>
+
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Summary</a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="table-responsive">
+
+
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Total Billed"> | $36.00 </td>
+                                        <td data-label="Status of claim" style="background-color:#d9edf7;">Approved</td>
+                                        
+
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <div class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class="navbar-text pull-left">
+                    <span class=" glyphicon glyphicon-arrow-left" style=""> </span><a style="color:black" href="patient_index_Nancy.html"> Go back </a>
+                    | <span class="glyphicon glyphicon-home text-center"> </span>  <a style="color:black" href="patient_index_Nancy.html"> Home</a>
+                </p>
+
+                <p class="navbar-text pull-right"><span class="glyphicon glyphicon-search"></span><a style="color:black" href="searchpatient.html">Start a new search</a></p>
+            </div>
+        </div>  
+
+
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src="js/jquery-1.11.3.min.js"> </script>
+
+        <script type="text/javascript" src="js/search.js">
+        </script>
+
+
+
+    </body>
+</html>
+

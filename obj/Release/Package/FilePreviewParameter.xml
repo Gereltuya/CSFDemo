@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="codepaths" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Gereltuya\\documents\\visual\ studio\ 2015\\Projects\\CodePathsCSF\\CodePathsCSF\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Gereltuya\\documents\\visual\ studio\ 2015\\Projects\\CodePathsCSF\\CodePathsCSF\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="SQLAzureConnection-Web.config Connection String" description="SQLAzureConnection Connection String used in web.config by the application to access the database." value="&#xD;&#xA;         Data Source=tcp:nsf94vmryj.database.windows.net;&#xD;&#xA;         Initial Catalog=CodePathsCSF;   &#xD;&#xA;         User ID=	dbdevuser; &#xD;&#xA;         Password=!314970o;     &#xD;&#xA;         Encrypt=true;      &#xD;&#xA;         Trusted_Connection=false;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Gereltuya\\Documents\\Visual\ Studio\ 2015\\Projects\\CodePathsCSF\\CodePathsCSF\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SQLAzureConnection']/@connectionString" />
+  </parameter>
+</parameters>
